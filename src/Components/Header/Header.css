@@ -2,11 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
   background-color: black;
   color: #fff;
-  padding: 15px;
+  padding: 20px;
   overflow-x: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 75);
 }
 
 .header__left {
