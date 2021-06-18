@@ -23,14 +23,14 @@ const Contact = () => {
           <div>
             <PhoneIcon />
             <div>
-              <p style={{ fontSize: "1.1em", letterSpacing: "2px" }}>Give us a call</p>
+              <p style={{ fontSize: "1.1em", letterSpacing: "1.7px" }}>Give us a call</p>
               <p style={{ color: "#3c628e", letterSpacing: "1.5px" }}>0710857297</p>
             </div>
           </div>
           <div>
             <EmailOutlinedIcon />
             <div>
-              <p style={{ fontSize: "1.1em", letterSpacing: "2px" }}>Send us an e-mail</p>
+              <p style={{ fontSize: "1em", letterSpacing: "1.7px" }}>Send us an e-mail</p>
               <p style={{ color: "#3c628e", letterSpacing: "1.5px" }}>testemail@gmail.com</p>
             </div>
           </div>
@@ -40,7 +40,7 @@ const Contact = () => {
             <div style={{ margin: "0 auto" }}>
               <RoomIcon />
               <div>
-                <p style={{ fontSize: "1.1em", letterSpacing: "2px" }}>Visit us today</p>
+                <p style={{ fontSize: "1em", letterSpacing: "1.7px" }}>Visit us today</p>
                 <p style={{ color: "#3c628e", letterSpacing: "1.5px" }}>Location</p>
               </div>
             </div>
@@ -56,6 +56,7 @@ const Contact = () => {
               borderBottom: "1px solid #dfdfdf",
               width: "40%",
               margin: "0 auto",
+              fontSize: "1em",
             }}
           >
             Connect With Us 😊

@@ -18,6 +18,7 @@
 .header__left > h3 {
   letter-spacing: 2px;
   font-size: 0.8em;
+  font-weight: 600;
 }
 
 .header__left > p {
@@ -45,4 +46,9 @@
 .link > h3 {
   letter-spacing: 2px;
   font-size: 0.625em;
+  transition-duration: 0.4s;
+}
+
+.link > h3:hover {
+  color: #fab735;
 }

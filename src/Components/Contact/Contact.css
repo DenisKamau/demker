@@ -11,7 +11,7 @@
 }
 
 .contact__Top > h1 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   line-height: 1.29;
   font-weight: 600;
   color: #4d4d4d;
@@ -21,8 +21,9 @@
 }
 
 .contact__Top > p {
-  font-size: 1.12rem;
-  line-height: 1.4;
+  font-size: 1rem;
+  letter-spacing: 0.7px;
+  line-height: 1.4em;
   color: #666;
   width: 60%;
   margin: 0 auto;
@@ -43,7 +44,7 @@
 }
 
 .contact__Bottom > h3 {
-  font-size: 2em;
+  font-size: 1.4em;
   font-family: "Old Standard TT", Lato, Arial, Verdana, sans-serif;
   color: #333 !important;
   line-height: 1.1em;
