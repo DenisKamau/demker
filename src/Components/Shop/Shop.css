@@ -1,3 +1,17 @@
+* {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.shop {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
 .shop__title {
   display: flex;
   margin: 0 auto;
@@ -20,7 +34,7 @@
 .shop__items {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1300px;
+  max-width: 95%;
   margin: 0 auto;
   justify-content: space-evenly;
   margin-top: 20px;

@@ -6,7 +6,7 @@ import Homepage from "./Components/Homepage/Homepage";
 import Shop from "./Components/Shop/Shop";
 import Contact from "./Components/Contact/Contact";
 import Header from "./Components/Header/Header";
-import AboutUs from "./Components/AboutUs/AboutUs";
+// import AboutUs from "./Components/AboutUs/AboutUs";
 
 const App = () => {
   return (
@@ -24,9 +24,9 @@ const App = () => {
             <Route exact path="/contact">
               <Contact />
             </Route>
-            <Route exact path="/aboutus">
+            {/* <Route exact path="/aboutus">
               <AboutUs />
-            </Route>
+            </Route> */}
           </Switch>
         </ScrollToTop>
       </Router>

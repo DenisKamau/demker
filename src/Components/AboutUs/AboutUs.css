@@ -1,0 +1,51 @@
+.aboutus {
+  display: flex;
+  flex-direction: column;
+  /* background-color: black; */
+  /* height: 100vh; */
+}
+
+.aboutus__Top {
+  padding: 30px;
+  background-image: url("https://marketive.io/wp-content/uploads/2020/02/About-Our-Agency-Banner-Background-Image.png");
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.aboutus__Top > h1 {
+  letter-spacing: 2px;
+  margin: 0 auto;
+  color: #fff;
+  width: fit-content;
+  padding-bottom: 10px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.aboutus__Bottom {
+  display: flex;
+}
+
+.aboutus__Row {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.aboutus__Row > div {
+  margin: 25px;
+  text-align: center;
+}
+
+.aboutus__Row > div > h3 {
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.aboutus__Row > div > p {
+  font-size: 18px !important;
+  line-height: 1.85em !important;
+  font-weight: 400;
+  letter-spacing: 0.05em !important;
+}

@@ -5,33 +5,21 @@
   margin-bottom: 25px;
   background-color: white;
   border-radius: 7px;
-}
-
-.card__main > a {
-  text-decoration: none;
-  color: black;
-  outline: none !important;
-}
-
-.link {
-  text-decoration: none;
-  color: black;
-  outline: none !important;
+  width: 16%;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  width: 100px;
-  height: 280px;
   margin: 2px;
   align-items: center;
+  width: 200px;
 }
 
 .card__image {
   display: flex;
-  height: 200px;
-  width: 400px;
+  height: auto;
+  width: 100%;
   object-fit: contain;
   align-items: center;
 }
@@ -45,6 +33,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin: 10px;
 }
 
 .card__imageAndName:hover {

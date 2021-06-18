@@ -1,0 +1,93 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__Top {
+  background-image: url(https://www.freshworks.com/static-assets/images/fworks/pattern-fworks-light.svg?4f4ef000b89833382995356d896ac129);
+  padding-bottom: 120px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.contact__Top > h1 {
+  font-size: 2.5rem;
+  line-height: 1.29;
+  font-weight: 600;
+  color: #4d4d4d;
+  font-family: Sailec-Medium, Helvetica, sans-serif;
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
+
+.contact__Top > p {
+  font-size: 1.12rem;
+  line-height: 1.4;
+  color: #666;
+  width: 60%;
+  margin: 0 auto;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.contact__Bottom {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.contact__Bottom > h3 {
+  font-size: 2em;
+  font-family: "Old Standard TT", Lato, Arial, Verdana, sans-serif;
+  color: #333 !important;
+  line-height: 1.1em;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dfdfdf;
+  margin: 0 auto;
+  margin-top: 0.22em;
+  margin-bottom: 0.1em;
+  width: 40%;
+}
+
+.contact__BottomRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: -10px;
+  height: 100px;
+}
+
+.contact__BottomRow > div {
+  display: flex;
+  margin: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact__BottomRow > div > div {
+  text-align: center;
+  margin: 20px;
+  line-height: 1.5em;
+}
+
+.socialMedia {
+  margin-top: 15px;
+}
+
+.socials > a > .MuiSvgIcon-root {
+  color: #3c628e;
+  font-size: 1.8em;
+  margin: 7px;
+  margin-top: 15px;
+}
+
+.socials > a > .MuiSvgIcon-root :hover {
+  transform: scale(1.1);
+  transition: ease-in-out(700ms);
+}
